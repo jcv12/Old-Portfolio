@@ -1,3 +1,6 @@
+
+
+/*
 body{
   background: navajowhite;
   background-size: cover;
@@ -25,4 +28,70 @@ body{
   from { width: 0 }
   to { width: 100% }
 }
+*/
+
+/* header section */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body{
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline-flex;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav{
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline-flex;
+}
+
+header nav ul li a{
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+/* end heading section*/
+
+/* Bio section */
+
+/* end bio section */
+
+/* projects section*/
+
+/* end project section*/
+
+/* contact section*/
+
+/* end of contcat section */
+
+
+
+
+
 
