@@ -3,36 +3,6 @@
   padding: 0;
 }
 
-/*
-body{
-  background: navajowhite;
-  background-size: cover;
-  font-family: 'Trebuchet MS', sans-serif;
-}
-
-.typed-out{
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  animation: typing 1.3s steps(20, end) forwards, blink 1s infinite;
-}
-
-.container{
-  display: inline-flex;
-}
-
-@keyframes blink {
-  from{ border-color: transparent }
-  to{ border-color: orange; }
-}
-@keyframes typing{
-  from { width: 0 }
-  to { width: 100% }
-}*/
-
-
 /* header section */
 
 header h1 {
@@ -70,6 +40,25 @@ header nav ul li a{
 /* end heading section*/
 
 /* Bio section */
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-title{
+  font-size: 55px;
+  display: flex;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
+}
 
 /* end bio section */
 
