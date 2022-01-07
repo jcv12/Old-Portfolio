@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /*
 body{
@@ -17,7 +20,7 @@ body{
 }
 
 .container{
-  display: inline-block;
+  display: inline-flex;
 }
 
 @keyframes blink {
@@ -27,22 +30,10 @@ body{
 @keyframes typing{
   from { width: 0 }
   to { width: 100% }
-}
-*/
+}*/
+
 
 /* header section */
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-
-
-body{
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
-}
 
 header h1 {
   font-weight: bold;
