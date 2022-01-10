@@ -32,19 +32,17 @@ section{
   white-space: nowrap;
   font-size: 1.6rem;
   width: 0;
-  animation: typing 2.5s steps(20, end) forwards, blink 1s infinite;
+  animation: typing 1.5s steps(20, end) forwards, blink 1s infinite;
   color: #142d4c;
 }
 .container{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding-left: 325px;
-  padding-top: 300px;
 }
 .container2{
-  display: inline-block;
+  display:flex;
   text-align: center;
-  padding-left: 300px;
 }
 @keyframes blink {
   from{ border-color: transparent }
